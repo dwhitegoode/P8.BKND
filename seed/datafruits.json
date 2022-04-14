@@ -58,36 +58,116 @@
       "Broccoli",
       "Dark Chocolate",
       "Almonds",
-      "Oranges",
+      "Oranges"
     ]
   },
   {
     "name": "Lungs",
-    "food": []
+    "food": [
+      "Beets",
+      "Peppers",
+      "Apples",
+      "Pumpkin",
+      "Turmeric",
+      "Tomatoes",
+      "Blueberries",
+      "Green Tea",
+      "Olive Oil",
+      "Coffee",
+      "Anchovies"
+    ]
   },
   {
     "name": "Eyes",
-    "food": []
+    "food": [
+      "Carrot",
+      "Sweet Potatoes",
+      "Cantaloupe",
+      "Oranges",
+      "Grapefruit",
+      "Red Bell Peppers",
+      "Salmon",
+      "Tomatoes",
+      "Tuna",
+      "Lemons",
+      "Apricots"
+    ]
   },
   {
     "name": "Ears",
-    "food": []
+    "food": [
+      "Banana",
+      "Garlic",
+      "Salmon",
+      "Dark Chocolate",
+      "Oranges",
+      "Milk",
+      "Broccoli",
+      "Spinach",
+      "Cabbage",
+      "Lentils"
+    ]
   },
   {
     "name": "Skin",
-    "food": []
+    "food": [
+      "Salmon",
+      "Avocados",
+      "Walnuts",
+      "Sunflower Seeds",
+      "Sweet Potators",
+      "Red Bell Peppers",
+      "Broccoli",
+      "Tomatoes",
+      "Green Tea",
+      "Grapes"
+    ]
   },
   {
     "name": "Bones",
-    "food": []
+    "food": [
+      "Cranberries",
+      "Olive Oil",
+      "Milk",
+      "Avocados",
+      "Shiitake Mushrooms",
+      "Prunes",
+      "Raisins",
+      "Yogurt",
+      "Artichokes"
+    ]
   },
   {
     "name": "Bladder",
-    "food": []
+    "food": [
+      "Garlic",
+      "Bananas",
+      "Eggs",
+      "Pears",
+      "Potatoes",
+      "Squash",
+      "Lean Proteins",
+      "Green Beans"
+    ]
   },
   {
     "name": "Stomach",
-    "food": []
+    "food": [
+      "Apple Cider Vinegar",
+      "Kombucha",
+      "Sauerkraut",
+      "Mangoes",
+      "Yogurt",
+      "Kefir",
+      "Garlic",
+      "Miso",
+      "Onion",
+      "Kvass",
+      "Apples",
+      "Artichokes",
+      "Lentils",
+      "Kimchi"
+    ]
   },
   {
     "name": "Intestine",
