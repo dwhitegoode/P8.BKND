@@ -14,6 +14,6 @@ ___
 | GET |    /organ-api/organs  |   gets all organs |
 | GET | /organ-api/organs/{name of organ} |    gets a single organ |
 | POST |    /organ-api/organs   |   posts an organ |
-| PUT | /organ-api/organs/{name of organ} |    updates an organ |
-| DEL |    /organ-api/organs/{name of organ}  |   deletes an organ |
+| PUT | /organ-api/organs/:id |    updates an organ |
+| DEL |    /organ-api/organs/:d  |   deletes an organ |
 

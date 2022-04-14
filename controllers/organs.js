@@ -36,7 +36,7 @@ export const addOrgan = async (req, res) => {
   try {
     const organ = new Organ(req.body)
     await organ.save()
-    res.json(planet)
+    res.json(organ)
   } catch (err) {
     res.json({ error: err })
   }
