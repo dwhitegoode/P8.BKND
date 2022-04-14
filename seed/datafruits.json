@@ -171,7 +171,15 @@
   },
   {
     "name": "Intestine",
-    "food": []
+    "food": [
+      "Fennel",
+      "Chia Seeds",
+      "Apple Cider Vinegar",
+      "Kombucha",
+      "Sauerkraut",
+      "Mangoes",
+      "Yogurt",
+      "Kefir"
+    ]
   }
-]
 ]
