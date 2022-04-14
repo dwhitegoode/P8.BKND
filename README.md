@@ -17,3 +17,8 @@ ___
 | PUT | /organ-api/organs/:id |    updates an organ |
 | DEL |    /organ-api/organs/:d  |   deletes an organ |
 
+| Method   |      Endpoint      |  Description |
+|----------|:------------------:|-----------------:|
+| GET |    /organ-api/foods  |   gets all organs |
+| PUT | /organ-api/organs/:id |    updates an organ |
+
