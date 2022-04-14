@@ -3,9 +3,9 @@
 //import res from "express/lib/response"
 import Organ from "../models/organs.js"
 
-// let formatHandler = (input) => {
-//   return input.charAt(0).toUpperCase() + string.slice(1);
-//}
+let formatHandler = (input) => {
+  return input.charAt(0).toUpperCase() + string.slice(1);
+}
 
 
 export const getOrgans = async (req, res) => {
@@ -43,9 +43,24 @@ export const addOrgan = async (req, res) => {
 }
 
 export const updateOrgan = async (req, res) => {
-
+  try {
+    const { id } = req.params
+    const organ = await Organ.findByIdAndUpdate(id, req.body, { new: true })
+    res.json(organ)
+  } catch (err) {
+    res.json({ error: err })
+  }
 }
 
 export const deleteOrgan = async (req, res) => {
-
+  try {
+    const { id } = req.params
+    const deleted = await Organ.findByIdAndDelete(id)
+    if (deleted) {
+      return res.send('organ removed')
+    }
+    throw new Error('organ not found')
+  } catch (err) {
+    res.json({ error: err })
+  }
 }
