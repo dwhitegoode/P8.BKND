@@ -20,3 +20,4 @@ export const updateFood = async (req, res) => {
     res.json({ error: err.message })
   }
 }
+
