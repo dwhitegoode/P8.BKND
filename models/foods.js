@@ -2,6 +2,6 @@ import mongoose from "mongoose";
 
 let FoodModel = new mongoose.Schema({
   "name": { type: String },
-  "food": { type: Object }
+  "food": { type: Array }
 })
 export default mongoose.model('foods', FoodModel)
