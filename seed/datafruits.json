@@ -58,7 +58,7 @@
       "Broccoli",
       "Dark Chocolate",
       "Almonds",
-      "Oranges",
+      "Oranges"
     ]
   },
   {
@@ -93,5 +93,4 @@
     "name": "Intestine",
     "food": []
   }
-]
 ]
