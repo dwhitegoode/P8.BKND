@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Liver",
+    "food": [
+      "Coffee",
+      "Tea",
+      "Grapefruit",
+      "Blueberries",
+      "Grapes",
+      "Broccoli",
+      "Mustard Greens",
+      "Brussels Sprouts",
+      "Salmon",
+      "Tuna"
+    ]
+  },
+  {
+    "name": "Heart",
+    "food": [
+      "Kale",
+      "Spinach",
+      "Whole Grains",
+      "Blueberries",
+      "Blackberries",
+      "Avocados",
+      "Salmon",
+      "Tuna",
+      "Walnuts",
+      "Dark Chocolate",
+      "Almonds",
+      "Tomatoes"
+    ]
+  },
+  {
+    "name": "Kidney",
+    "food": [
+      "Red Bell Peppers",
+      "Cabbage",
+      "Cauliflower",
+      "Garlic",
+      "Onions",
+      "Apples",
+      "Cranberries",
+      "Blueberries",
+      "Grapes",
+      "Egg Whites",
+      "Olive Oil"
+    ]
+  },
+  {
+    "name": "Brain",
+    "food": [
+      "Salmon",
+      "Tuna",
+      "Coffee",
+      "Blueberries",
+      "Turmeric",
+      "Broccoli",
+      "Dark Chocolate",
+      "Almonds",
+      "Oranges",
+    ]
+  },
+  {
+    "name": "Lungs",
+    "food": []
+  },
+  {
+    "name": "Eyes",
+    "food": []
+  },
+  {
+    "name": "Ears",
+    "food": []
+  },
+  {
+    "name": "Skin",
+    "food": []
+  },
+  {
+    "name": "Bones",
+    "food": []
+  },
+  {
+    "name": "Bladder",
+    "food": []
+  },
+  {
+    "name": "Stomach",
+    "food": []
+  },
+  {
+    "name": "Intestine",
+    "food": []
+  }
+]
+]
