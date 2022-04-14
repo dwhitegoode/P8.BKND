@@ -6,7 +6,7 @@ import foods from "./datafruits.json" assert { type: 'json'}
 
 
 const seedData = async () => {
-  await db.dropDatabase()
+  await db.deleteMany()
 
   await OrganModel.insertMany(organs)
   console.log('seeded, success!')
@@ -16,7 +16,7 @@ const seedData = async () => {
 seedData();
 
 const seedFoodData = async () => {
-  await db.dropDatabase()
+  await db.deleteMany()
 
   await FoodModel.insertMany(foods)
   console.log('food seeded!')
