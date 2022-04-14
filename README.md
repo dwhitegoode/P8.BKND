@@ -10,10 +10,10 @@ ___
 
 | Method   |      Endpoint      |  Description |
 |----------|:------------------:|-----------------:|
-| GET |      /api        |         root      |
-| GET |    /api/organs  |   gets all organs |
-| GET | /api/organs/{name of organ} |    gets a single organ |
-| POST |    /api/organs   |   posts an organ |
-| PUT | /api/organs/{name of organ} |    updates an organ |
-| DEL |    /api/organs/{name of organ}  |   deletes an organ |
+| GET |      /organ-api        |         root      |
+| GET |    /organ-api/organs  |   gets all organs |
+| GET | /organ-api/organs/{name of organ} |    gets a single organ |
+| POST |    /organ-api/organs   |   posts an organ |
+| PUT | /organ-api/organs/{name of organ} |    updates an organ |
+| DEL |    /organ-api/organs/{name of organ}  |   deletes an organ |
 
