@@ -1,8 +1,7 @@
-//import res from "express/lib/response"
-//import organs from "../models/organs.js"
-//import res from "express/lib/response"
+
 import Organ from "../models/organs.js"
 
+//TODO implement formatter
 let formatHandler = (input) => {
   return input.charAt(0).toUpperCase() + string.slice(1);
 }
@@ -20,7 +19,10 @@ export const getOrgans = async (req, res) => {
 
 export const getOrgan = async (req, res) => {
   try {
-    const { organ } = req.params;
+    let temp = req.params
+    const organ = formatHandler(temp)
+    //const { organ } = formatHandler(req.params);
+    console.log(organ)
     let filter = { name: organ }
     const searchResult = await Organ.findOne(filter)
     if (searchResult) {
