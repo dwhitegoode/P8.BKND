@@ -6,7 +6,9 @@ import organs from "./data.json" assert {type: 'json'}
 const seedData = async () => {
   await db.dropDatabase()
 
-  await OrganModel.insert(organs)
+  await OrganModel.insertMany(organs)
   console.log('seeded, success!')
   db.close()
 }
+
+seedData();
