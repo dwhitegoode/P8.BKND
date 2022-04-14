@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Liver",
+    "description": "All the blood leaving the stomach and intestines passes through the liver. The liver processes this blood and breaks down, balances, and creates the nutrients and also metabolizes drugs into forms that are easier to use for the rest of the body or that are nontoxic."
+  },
+  {
+    "name": "Heart",
+    "description": "Your heart is the primary organ of your circulatory system. It pumps blood throughout your body, controls your heart rate and maintains blood pressure. Your heart is a bit like a house. It has walls, rooms, doors, plumbing and an electrical system."
+  },
+  {
+    "name": "Kidney",
+    "description": "Our kidneys play many important roles keeping our bodies in balance. They remove waste and toxins, excess water from the bloodstream, which is carried out of the body in urine. They helped to make hormones to produce red blood cells, and they turn vitamin D into its active form, so it's usable in the body"
+  },
+  {
+    "name": "Brain",
+    "description": "The brain is a complex organ that controls thought, memory, emotion, touch, motor skills, vision, breathing, temperature, hunger and every process that regulates our body. Together, the brain and spinal cord that extends from it make up the central nervous system"
+  },
+  {
+    "name": "Lungs",
+    "description": "The lungs and respiratory system allow us to breathe. They bring oxygen into our bodies (called inspiration, or inhalation) and send carbon dioxide out (called expiration, or exhalation)."
+  },
+  {
+    "name": "Eyes",
+    "description": "The eye is a sensory organ. It collects light from the visible world around us and converts it into nerve impulses. The optic nerve transmits these signals to the brain, which forms an image so thereby providing sight."
+  },
+  {
+    "name": "Ears",
+    "description": "The ears are organs that provide two main functions — hearing and balance — that depend on specialized receptors called hair cells. "
+  },
+  {
+    "name": "Skin",
+    "description": "Provides a protective barrier against mechanical, thermal and physical injury and hazardous substances. Prevents loss of moisture. Reduces harmful effects of UV radiation."
+  },
+  {
+    "name": "Bones",
+    "description": "Bone provides shape and support for the body, as well as protection for some organs. Bone also serves as a storage site for minerals and provides the medium—marrow—for the development and storage of blood cells."
+  },
+  {
+    "name": "Bladder",
+    "description": "The bladder is a hollow muscular organ in the pelvis, just above and behind the pubic bone. The bladder has two main functions which are the storage and emptying of urine."
+  },
+  {
+    "name": "Stomach",
+    "description": "Your stomach is a muscular organ that digests food. It is part of your gastrointestinal (GI) tract. When your stomach receives food, it contracts and produces acids and enzymes that break down food. When your stomach has broken down food, it passes it to your small intestine."
+  },
+  {
+    "name": "Intestine",
+    "description": "The intestines are responsible for breaking food down, absorbing its nutrients and solidifying the waste. The small intestine is the longest part of the GI tract, and it is where most of your digestion takes place."
+  }
+]
