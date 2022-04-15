@@ -8,6 +8,7 @@ ___
 
 #### API Endpoints
 
+ORGANS 
 | Method   |      Endpoint      |  Description |
 |----------|:------------------:|-----------------:|
 | GET |      /organ-api        |         root      |
@@ -16,9 +17,11 @@ ___
 | POST |    /organ-api/organs   |   posts an organ |
 | PUT | /organ-api/organs/:id |    updates an organ |
 | DEL |    /organ-api/organs/:d  |   deletes an organ |
+___
 
+FOOD
 | Method   |      Endpoint      |  Description |
 |----------|:------------------:|-----------------:|
-| GET |    /organ-api/foods  |   gets all organs |
-| PUT | /organ-api/organs/:id |    updates an organ |
+| GET |    /organ-api/foods  |   gets all foods |
+| PUT | /organ-api/foods/:id |    updates an foods |
 
