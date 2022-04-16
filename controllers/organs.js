@@ -45,6 +45,8 @@ export const addOrgan = async (req, res) => {
 
 export const updateOrgan = async (req, res) => {
   try {
+    // let filter = { name: organ }
+    // const searchResult = await Organ.findOne(filter)
     const { id } = req.params
     const organ = await Organ.findByIdAndUpdate(id, req.body, { new: true })
     res.json(organ)
