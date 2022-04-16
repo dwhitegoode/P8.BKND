@@ -18,10 +18,9 @@ export const getOrgans = async (req, res) => {
 
 export const getOrgan = async (req, res) => {
   try {
-    let temp = req.params
-    const organ = formatHandler(temp)
-    //const { organ } = formatHandler(req.params);
-    console.log(organ)
+
+    const { organ } = req.params
+    //console.log(organ)
     let filter = { name: organ }
     const searchResult = await Organ.findOne(filter)
     if (searchResult) {
