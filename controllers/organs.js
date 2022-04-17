@@ -47,8 +47,8 @@ export const updateOrgan = async (req, res) => {
   try {
     // let filter = { name: organ }
     // const searchResult = await Organ.findOne(filter)
-    const { id } = req.params
-    const organ = await Organ.findByIdAndUpdate(id, req.body, { new: true })
+    const query = { _id: req.params.id }
+    const organ = await Organ.findByIdAndUpdate(query, { $push: (req.body) })
     res.json(organ)
   } catch (err) {
     res.json({ error: err })
