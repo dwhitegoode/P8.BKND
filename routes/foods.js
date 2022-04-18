@@ -5,6 +5,6 @@ const router = Router()
 
 router.get('/foods', controllers.getFood)
 router.get('/foods/:organ', controllers.getSpecFood)
-router.put('/foods/:organ', controllers.updateFood)
+router.put('/foods/:id', controllers.updateFood)
 
 export default router;
