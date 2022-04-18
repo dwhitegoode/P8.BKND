@@ -23,8 +23,8 @@ export const getSpecFood = async (req, res) => {
 
 export const updateFood = async (req, res) => {
   try {
-    const query = { _id: req.params.id }
-    const food = await Food.findByIdAndUpdate(query, { $push: (req.body) })
+    const query = { name: `${req.params.organ}` };
+    const food = await Food.updateMany(query, { $push: (req.body) })
     res.status(200).json(food)
   } catch (err) {
     console.log(err)
