@@ -44,9 +44,12 @@ export const addOrgan = async (req, res) => {
 
 export const updateOrgan = async (req, res) => {
   try {
-    const query = { _id: req.params.id }
-    const organ = await Organ.findByIdAndUpdate(query, { $push: (req.body) })
-    res.json(organ)
+    //const query = { _id: req.params.id }
+    // const { name } = req.params
+    // const organ = await Organ.findByIdAndUpdate(id, { $push: (req.body) })
+    const query = { name: `${req.params.organ}` };
+    const organ = await Organ.updateMany(query, { $push: (req.body) })
+    res.status(200).json(organ)
   } catch (err) {
     res.json({ error: err })
   }

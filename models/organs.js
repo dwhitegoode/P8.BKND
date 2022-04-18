@@ -4,7 +4,7 @@ let OrganModel = new mongoose.Schema({
   "name": { type: String },
   "description": { type: String },
   "system": { type: String },
-  "symptom": { type: String },
+  "symptom": { type: Array },
   "images": { type: String }
 
 })
