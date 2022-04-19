@@ -4,7 +4,7 @@
   "description": "general assembly project 8 backend",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest tests --detectOpenHandles --silent",
     "start": "node server.js",
     "db:seed": "node ./seed/data.js",
     "dev": "nodemon server.js"
@@ -17,7 +17,14 @@
     "express": "^4.17.3",
     "mongoose": "^6.2.11"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
   }
 }

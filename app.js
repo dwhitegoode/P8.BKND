@@ -15,3 +15,4 @@ app.use('/organ-api', routes)
 //   app.listen(PORT, console.log({ portno: PORT, date: new Date() }))
 // })
 
+export default app
