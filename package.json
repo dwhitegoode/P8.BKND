@@ -5,9 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
+    "start": "node server.js",
     "db:seed": "node ./seed/data.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon server.js"
   },
   "author": "David, Nasim, Lawrence",
   "license": "ISC",

@@ -4,14 +4,14 @@ import routes from "./routes/index.js"
 import cors from "cors"
 
 const app = express()
-const PORT = process.env.PORT || 9000
+// const PORT = process.env.PORT || 9000
 
 app.use(express.json())
 app.use(cors())
 
 app.use('/organ-api', routes)
 
-db.on('connected', () => {
-  app.listen(PORT, console.log({ portno: PORT, date: new Date() }))
-})
+// db.on('connected', () => {
+//   app.listen(PORT, console.log({ portno: PORT, date: new Date() }))
+// })
 
