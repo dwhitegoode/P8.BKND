@@ -30,7 +30,7 @@ beforeAll(async () => {
 })
 //let projectId;
 let organName
-let projectId;
+let organId;
 
 // projects api tests
 describe('Test the express routes for organs', () => {
@@ -43,7 +43,7 @@ describe('Test the express routes for organs', () => {
     expect(res.body[0]).toHaveProperty('name')
     expect(res.body[0]).toHaveProperty('_id')
     organName = res.body[0].name
-    projectId = res.body[0]._id
+    organId = res.body[0]._id
     // console.log(organName)
   }),
     it('should get a specific organ', async () => {
@@ -65,19 +65,19 @@ describe('Test the express routes for organs', () => {
 
     it('should update an organ', async () => {
       const res = await request(app).put(`/organ-api/organs/${organName}`).send({
-
+        name: "Intestine",
         description: "Food is the way to the heart",
         system: "digestive",
         symptom: ["ulcers"],
         images: "https://www.pngfind.com/pngs/m/28-286612_human-body-heart-anatomy-orga"
       })
       expect(res.statusCode).toEqual(200)
-      expect(res.body).toHaveProperty('_id')
+      //expect(res.body).toHaveProperty('name')
     }),
     it('should delete an entry', async () => {
-      const res = await request(app).del(`/organ-api/organs/${projectId}`)
+      const res = await request(app).del(`/organ-api/organs/${organId}`)
       expect(res.statusCode).toEqual(200)
-      expect(res.text).toEqual('entry deleted')
+      expect(res.text).toEqual('organ removed')
     })
 })
 
