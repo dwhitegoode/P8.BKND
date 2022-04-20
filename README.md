@@ -77,7 +77,7 @@ Run Test:
 
 ### Contributing
 
-Please reach out to us for details on our code of conduct, and the process for submitting pull requests to us.
+Please reach out to us for details on the process for submitting pull requests to us.
 
 
 
