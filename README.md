@@ -13,7 +13,7 @@ __________
 
 ### Installing Locally
 
-Clone Repo
+##### Clone Repo
 `git clone https://github.com/forextroll/P8.BKND.git`
 
 ##### Install Dependencies
