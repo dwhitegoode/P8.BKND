@@ -54,7 +54,8 @@ FOOD
 | Method   |      Endpoint      |  Description |
 |----------|:------------------:|-----------------:|
 | GET |    /organ-api/foods  |   gets all foods |
-| PUT | /organ-api/foods/:id |    updates an foods |
+| GET | /organ-api/foods/:organ |    gets a specific food |
+| PUT |/organ-api/foods/:organ | updates food
 
 Model:
 ```
