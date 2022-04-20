@@ -40,14 +40,11 @@ ORGANS
 | DEL |    /organ-api/organs/:id  |   deletes an organ |
 
 Model: 
-
-<ul>
-<li>`"name": { type: String }`</li>
-<li>`"description": { type: String }`</li>
-<li>`"system": { type: String }`</li>
-<li>`"symptom": { type: Array }`</li>
-<li>`"images": { type: String }`</li>
-</ul>
+`"name": { type: String }`
+`"description": { type: String }`
+`"system": { type: String }`
+`"symptom": { type: Array }`
+`"images": { type: String }`
 ___
 
 FOOD
