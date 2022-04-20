@@ -16,13 +16,13 @@ __________
 Clone Repo
 `git clone https://github.com/forextroll/P8.BKND.git`
 
-Install Dependencies
+##### Install Dependencies
 `npm i`
 
-Seed Database
+##### Seed Database
 `npm run db:seed`
 
-Run App
+##### Run App
 `npm start`
 
 #### Heroku Deployment
@@ -65,7 +65,7 @@ food: { type: Array }
 #### Testing API Routes with Jest
 For testing purposes, we've used [Jest](https://jestjs.io) and [SuperTest](https://www.npmjs.com/package/supertest) on the backend to ensure our API endpoints are operational.
 
-Run Test:
+##### Run Test:
 `npm run test`
 
 ### Built With
