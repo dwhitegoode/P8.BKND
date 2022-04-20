@@ -30,7 +30,7 @@ beforeAll(async () => {
 })
 //let projectId;
 let organName
-//let projectId;
+let projectId;
 
 // projects api tests
 describe('Test the express routes for organs', () => {
@@ -41,8 +41,9 @@ describe('Test the express routes for organs', () => {
     expect(res.statusCode).toEqual(200)
     // test that the response object has an _id property
     expect(res.body[0]).toHaveProperty('name')
+    expect(res.body[0]).toHaveProperty('_id')
     organName = res.body[0].name
-    //projectId = res.body[0]._id
+    projectId = res.body[0]._id
     // console.log(organName)
   }),
     it('should get a specific organ', async () => {
@@ -60,8 +61,29 @@ describe('Test the express routes for organs', () => {
       })
       expect(res.statusCode).toEqual(200)
       expect(res.body).toHaveProperty('name')
+    }),
+
+    it('should update an organ', async () => {
+      const res = await request(app).put(`/organ-api/organs/${organName}`).send({
+
+        description: "Food is the way to the heart",
+        system: "digestive",
+        symptom: ["ulcers"],
+        images: "https://www.pngfind.com/pngs/m/28-286612_human-body-heart-anatomy-orga"
+      })
+      expect(res.statusCode).toEqual(200)
+      expect(res.body).toHaveProperty('_id')
+    }),
+    it('should delete an entry', async () => {
+      const res = await request(app).del(`/organ-api/organs/${projectId}`)
+      expect(res.statusCode).toEqual(200)
+      expect(res.text).toEqual('entry deleted')
     })
 })
+
+// afterWords(async () => {
+//   await mongoose.connection.close()
+// })
   //,
   // Save the _id value for later use with other tests
   //projectId = res.body[0].organ
