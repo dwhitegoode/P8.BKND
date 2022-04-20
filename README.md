@@ -3,7 +3,7 @@
 
 A RESTful API using Javascript, Express, and Mongoose that displays organ health facts and nutritional info for optimal organ health referenced from HealthLine. 
 
-#####Authors: 
+##### Authors: 
 <ul>
 <li>David White-Goode |[forextroll][github]
 <li>Nasim Akbor | [NasimAkbor][github] </li>
