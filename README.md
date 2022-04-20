@@ -40,11 +40,14 @@ ORGANS
 | DEL |    /organ-api/organs/:id  |   deletes an organ |
 
 Model: 
-`"name": { type: String }`
-`"description": { type: String }`
-`"system": { type: String }`
-`"symptom": { type: Array }`
-`"images": { type: String }`
+```
+name: { type: String }
+description: { type: String }
+description: { type: String }
+system: { type: String }
+symptom: { type: Array }
+images: { type: String }
+```
 ___
 
 FOOD
@@ -54,8 +57,10 @@ FOOD
 | PUT | /organ-api/foods/:id |    updates an foods |
 
 Model:
-`"name": { type: String }`
-`"food": { type: Array }`
+```
+name: { type: String }
+food: { type: Array }
+```
 
 #### Testing API Routes with Jest
 For testing purposes, we've used [Jest](https://jestjs.io) and [SuperTest](https://www.npmjs.com/package/supertest) on the backend to ensure our API endpoints are operational.
