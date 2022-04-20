@@ -5,9 +5,9 @@ A RESTful API using Javascript, Express, and Mongoose that displays organ health
 
 ##### Authors: 
 <ul>
-<li>David White-Goode |[forextroll](github)
-<li>Nasim Akbor | [NasimAkbor](github) </li>
-<li>Lawrence Yee | [Newbz521](github)</li></ul>
+<li>David White-Goode |[forextroll][github]
+<li>Nasim Akbor | [NasimAkbor][github] </li>
+<li>Lawrence Yee | [Newbz521][github]</li></ul>
 
 __________
 
